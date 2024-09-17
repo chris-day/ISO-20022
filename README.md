@@ -8,3 +8,7 @@ The ISO 20022 Repository used for conversion is 20230719_ISO20022_2013_eReposito
 The TSV files can be used with uml2semantics
 
 `java -jar uml2semantics.jar --classes "class.tsv" --attributes "attribute.tsv" --ontology "iso20022.owl" --ontologyIRI "https://iso20022.org/ontology" --ontologyPrefix "iso20022:https://iso20022.org/ontology/" --enumerations "enumeration.tsv" -n "enumerationIndividuals.tsv"`
+
+## Notes
+
+2024-09-17 : Discussion around whether data types presented via a Metaclass should be first-class Datatypes i.e. ISO 20022 Data Types such as MaxText140 rather than using the built-in. As ISO 20022:2025 is migrating to ISO 11404 General Purpose Datatypes, perhaps there is a bigger picture.
