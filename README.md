@@ -12,3 +12,9 @@ The TSV files can be used with uml2semantics
 ## Notes
 
 2024-09-17 : Discussion around whether data types presented via a Metaclass should be first-class Datatypes i.e. ISO 20022 Data Types such as MaxText140 rather than using the built-in. As ISO 20022:2025 is migrating to ISO 11404 General Purpose Datatypes, perhaps there is a bigger picture.
+
+## Combined and fixed Ontology
+
+The files iso20022.rdfxml and iso20022-manchester-owl.omn and RDF/XML and Manchester OWL combined files that have the right Datatypes and DatatypeProperty fixes.
+
+Use this as a good, solid base to load messages instance against.
