@@ -14,4 +14,4 @@ uml2semantics -c class.tsv -a attribute.tsv -e enumeration.tsv -n enumerationInd
 
 ## Notes
 
-2025-11-27 : New version based on a Python version of UML2Semantics
+2025-11-27 : New version based on a Python version of UML2Semantics here https://github.com/chris-day/uml2semantics-python
