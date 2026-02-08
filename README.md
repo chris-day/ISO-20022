@@ -6,10 +6,12 @@ This translation is based upon the work by Henriette Harmse, outlined in her UML
 
 The ISO 20022 Repository used for conversion is 20250424_ISO20022_2013_eRepository.iso20022, available from https://www.iso20022.org/iso20022-repository/e-repository
 
+There is a full translation in iso20022.ttl and the business model only in iso20022-business.ttl
+
 The TSV files can be used with uml2semantics-python found here https://github.com/chris-day/uml2semantics-python
 
 ```
-uml2semantics -c class.tsv -a attribute.tsv -e enumeration.tsv -n enumerationIndividuals.tsv --datatypes datatypes.tsv  --annotation-properties AnnotationProperties.tsv --annotations Annotations.tsv --output iso20022.ttl --prefix "iso20022:http://iso20022.org/iso20022/,iso20022cd:http://purl.org/iso20022/cd/,iso20022dt:http://purl.org/iso20022/dt/,iso20022mm:http://purl.org/iso20022/mm/,xsd:http://www.w3.org/2001/XMLSchema#" --ontology-iri "http://iso20022.org/iso20022" --format turtle
+uml2semantics -c class.tsv -a attribute.tsv -e enumeration.tsv -n enumerationIndividuals.tsv --datatypes datatypes.tsv  --annotation-properties AnnotationProperties.tsv --annotations Annotations.tsv --output iso20022-business.ttl --prefix "iso20022:http://iso20022.org/iso20022/,iso20022cd:http://purl.org/iso20022/cd/,iso20022dt:http://purl.org/iso20022/dt/,iso20022mm:http://purl.org/iso20022/mm/,xsd:http://www.w3.org/2001/XMLSchema#" --ontology-iri "http://iso20022.org/iso20022" --format turtle
 ```
 
 ## Notes
