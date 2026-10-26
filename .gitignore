@@ -208,3 +208,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+/iso20022-business.ttl
+/iso20022.ttl
+/tsv-business/*.tsv
+/tsv-full/*.tsv
